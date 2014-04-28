@@ -325,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "\"$(PODS_ROOT)/google-cast-sdk/GoogleCastFramework-2.1.0-Release\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cast Demo/Cast Demo-Prefix.pch";
 				INFOPLIST_FILE = "Cast Demo/Cast Demo-Info.plist";
@@ -426,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "\"$(PODS_ROOT)/google-cast-sdk/GoogleCastFramework-2.1.0-Release\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cast Demo/Cast Demo-Prefix.pch";
 				INFOPLIST_FILE = "Cast Demo/Cast Demo-Info.plist";
