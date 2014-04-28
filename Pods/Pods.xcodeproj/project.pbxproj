@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0627FAC275664C53A0BAB0D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174B6AB68E544E989047682 /* Foundation.framework */; };
+		11248A0A6FF141BBBC91328A /* GCKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F471D8DAEF483D84DD9829 /* GCKDevice.h */; };
+		2C3FFE7DB92B4F61841A161F /* GoogleCast.h in Headers */ = {isa = PBXBuildFile; fileRef = C950D4088C55481DA732F50B /* GoogleCast.h */; };
+		3659A8D1A542455891D8CA10 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2840C9577A3406D85BCF2DC /* Pods-dummy.m */; };
+		3CF6F94D8AC84C7D81A40224 /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C217F737C39F4122AEBC30B1 /* GoogleCast.framework */; };
+		3F778A37086C4D81818F7CC7 /* GCKError.h in Headers */ = {isa = PBXBuildFile; fileRef = CF194C2A5EF841CC9AAE811C /* GCKError.h */; };
+		4A69554C6B6449588C365B45 /* libPods-google-cast-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 456554A730EF4795A5C4C2FF /* libPods-google-cast-sdk.a */; };
+		4C3BABDD180542B88070F9D4 /* GCKMediaStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9B48955A96468D81B5BF48 /* GCKMediaStatus.h */; };
+		5966A5F128414283995B29EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174B6AB68E544E989047682 /* Foundation.framework */; };
+		5D512896779D40FEB18EBE44 /* GCKDeviceFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B2B00153A94E699D48724C /* GCKDeviceFilter.h */; };
+		62DF5260FB1943BD97F65CAE /* GCKJSONUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1629070EA7584B61BC08094B /* GCKJSONUtils.h */; };
+		67595B6AFED643678422E38E /* GCKLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D2276F9E8D3043B59C813BEB /* GCKLogger.h */; };
+		760CB8F019C34334BF2633F5 /* GCKCastChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 258B2D4F0BD746EB881A2445 /* GCKCastChannel.h */; };
+		81E2DF461C0C431BB8931E2F /* GCKDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A55B47ACB64AF4949DCC09 /* GCKDeviceManager.h */; };
+		85E9768A7A694105B7FF80B4 /* GCKImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D1475C554C40BEB1F9D9E8 /* GCKImage.h */; };
+		9017E315AACB4250A41F0CC3 /* GCKApplicationMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 70EC836D383245FB9485C61A /* GCKApplicationMetadata.h */; };
+		91012466B828424EA8666D0F /* GCKMediaMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 68AFA441A5E845A48B83BDD1 /* GCKMediaMetadata.h */; };
+		91E9F9A246FC41FD95B77487 /* GCKDeviceScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DF90C708B594522ADC2EA73 /* GCKDeviceScanner.h */; };
+		9473B94B071E4775A2C4A24B /* GCKNSDictionary+TypedValueLookup.h in Headers */ = {isa = PBXBuildFile; fileRef = C9568A970D1244C68D459090 /* GCKNSDictionary+TypedValueLookup.h */; };
+		BCCC0EF880FD44DC9B3FF406 /* Pods-google-cast-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2679061966041D8A525CC3D /* Pods-google-cast-sdk-dummy.m */; };
+		BE2A0BAC0F4645979E97450D /* GCKSenderApplicationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C914FD6B3F4D83AE598A97 /* GCKSenderApplicationInfo.h */; };
+		E7C7BAB2DAFF481F91A52F29 /* GCKFilterCriteria.h in Headers */ = {isa = PBXBuildFile; fileRef = 191B9A5C5CA94ED483342209 /* GCKFilterCriteria.h */; };
+		EBD0F9452BF948D1A88BA07B /* GCKMediaInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5709ECF045094927AC720321 /* GCKMediaInformation.h */; };
+		FE1770BA449A465BB405A4E8 /* GCKMediaControlChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA84FD5AA984CBDB55CA98D /* GCKMediaControlChannel.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD5B455D42EF4D598E8ED96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314C56AE80684D78AB420270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A57275D217DE46768762CFA7;
+			remoteInfo = "Pods-google-cast-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C134263B3F4D338FB390B2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		0DF90C708B594522ADC2EA73 /* GCKDeviceScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKDeviceScanner.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKDeviceScanner.h"; sourceTree = "<group>"; };
+		1629070EA7584B61BC08094B /* GCKJSONUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKJSONUtils.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKJSONUtils.h"; sourceTree = "<group>"; };
+		191B9A5C5CA94ED483342209 /* GCKFilterCriteria.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKFilterCriteria.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKFilterCriteria.h"; sourceTree = "<group>"; };
+		258B2D4F0BD746EB881A2445 /* GCKCastChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKCastChannel.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKCastChannel.h"; sourceTree = "<group>"; };
+		2DAA19A13B754DACBCFF03F4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		365AF81C740B476EA6C1285B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA84FD5AA984CBDB55CA98D /* GCKMediaControlChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKMediaControlChannel.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKMediaControlChannel.h"; sourceTree = "<group>"; };
+		456554A730EF4795A5C4C2FF /* libPods-google-cast-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-google-cast-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F471D8DAEF483D84DD9829 /* GCKDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKDevice.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKDevice.h"; sourceTree = "<group>"; };
+		53A55B47ACB64AF4949DCC09 /* GCKDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKDeviceManager.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKDeviceManager.h"; sourceTree = "<group>"; };
+		55D74702BF5D40D28C00CC9B /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		5709ECF045094927AC720321 /* GCKMediaInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKMediaInformation.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKMediaInformation.h"; sourceTree = "<group>"; };
+		67D1475C554C40BEB1F9D9E8 /* GCKImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKImage.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKImage.h"; sourceTree = "<group>"; };
+		68AFA441A5E845A48B83BDD1 /* GCKMediaMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKMediaMetadata.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKMediaMetadata.h"; sourceTree = "<group>"; };
+		70EC836D383245FB9485C61A /* GCKApplicationMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKApplicationMetadata.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKApplicationMetadata.h"; sourceTree = "<group>"; };
+		796EFCAD0B0C43E2BFE8D403 /* Pods-google-cast-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-google-cast-sdk-prefix.pch"; sourceTree = "<group>"; };
+		851AC8D4356D44B0895835AC /* Pods-google-cast-sdk-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-google-cast-sdk-Private.xcconfig"; sourceTree = "<group>"; };
+		8B3625650F714E808E15F15D /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		9174B6AB68E544E989047682 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B92EAC200D3240E7A86CEC18 /* Pods-google-cast-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-google-cast-sdk.xcconfig"; sourceTree = "<group>"; };
+		BB9B48955A96468D81B5BF48 /* GCKMediaStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKMediaStatus.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKMediaStatus.h"; sourceTree = "<group>"; };
+		C217F737C39F4122AEBC30B1 /* GoogleCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleCast.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/GoogleCast.framework; sourceTree = DEVELOPER_DIR; };
+		C2C914FD6B3F4D83AE598A97 /* GCKSenderApplicationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKSenderApplicationInfo.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKSenderApplicationInfo.h"; sourceTree = "<group>"; };
+		C950D4088C55481DA732F50B /* GoogleCast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleCast.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GoogleCast.h"; sourceTree = "<group>"; };
+		C9568A970D1244C68D459090 /* GCKNSDictionary+TypedValueLookup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GCKNSDictionary+TypedValueLookup.h"; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKNSDictionary+TypedValueLookup.h"; sourceTree = "<group>"; };
+		CF194C2A5EF841CC9AAE811C /* GCKError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKError.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKError.h"; sourceTree = "<group>"; };
+		D2276F9E8D3043B59C813BEB /* GCKLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKLogger.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKLogger.h"; sourceTree = "<group>"; };
+		D3B2B00153A94E699D48724C /* GCKDeviceFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKDeviceFilter.h; path = "GoogleCastFramework-2.1.0-Release/GoogleCast.framework/Versions/A/Headers/GCKDeviceFilter.h"; sourceTree = "<group>"; };
+		E2679061966041D8A525CC3D /* Pods-google-cast-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-google-cast-sdk-dummy.m"; sourceTree = "<group>"; };
+		EEB683D234054F9EB9AFEF2A /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2840C9577A3406D85BCF2DC /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		FEF25B72DB7E4C2C9E0686FC /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C28B32FC1844883BFE09B9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5966A5F128414283995B29EE /* Foundation.framework in Frameworks */,
+				3CF6F94D8AC84C7D81A40224 /* GoogleCast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83BAB6660A84601B5129426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0627FAC275664C53A0BAB0D7 /* Foundation.framework in Frameworks */,
+				4A69554C6B6449588C365B45 /* libPods-google-cast-sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25543C3EEB2946FDAE3526A7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9174B6AB68E544E989047682 /* Foundation.framework */,
+				C217F737C39F4122AEBC30B1 /* GoogleCast.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3E2D6B1CCCA647819890624A = {
+			isa = PBXGroup;
+			children = (
+				2DAA19A13B754DACBCFF03F4 /* Podfile */,
+				48C91703023143CE960B99AE /* Frameworks */,
+				8791327456C640F78D8E714E /* Pods */,
+				AFE1603064EA49D281A9295D /* Products */,
+				D436EB9C64904908A873EA93 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		48C91703023143CE960B99AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25543C3EEB2946FDAE3526A7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DD818B342CD463E903E784F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B92EAC200D3240E7A86CEC18 /* Pods-google-cast-sdk.xcconfig */,
+				851AC8D4356D44B0895835AC /* Pods-google-cast-sdk-Private.xcconfig */,
+				E2679061966041D8A525CC3D /* Pods-google-cast-sdk-dummy.m */,
+				796EFCAD0B0C43E2BFE8D403 /* Pods-google-cast-sdk-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		8791327456C640F78D8E714E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3D7AB60ACF6410FBAFF2D4F /* google-cast-sdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8EB6C3B699DE45FEB74E86FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09C134263B3F4D338FB390B2 /* Pods.xcconfig */,
+				EEB683D234054F9EB9AFEF2A /* Pods-acknowledgements.markdown */,
+				8B3625650F714E808E15F15D /* Pods-acknowledgements.plist */,
+				F2840C9577A3406D85BCF2DC /* Pods-dummy.m */,
+				FEF25B72DB7E4C2C9E0686FC /* Pods-environment.h */,
+				55D74702BF5D40D28C00CC9B /* Pods-resources.sh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFE1603064EA49D281A9295D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				365AF81C740B476EA6C1285B /* libPods.a */,
+				456554A730EF4795A5C4C2FF /* libPods-google-cast-sdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D7AB60ACF6410FBAFF2D4F /* google-cast-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				70EC836D383245FB9485C61A /* GCKApplicationMetadata.h */,
+				258B2D4F0BD746EB881A2445 /* GCKCastChannel.h */,
+				48F471D8DAEF483D84DD9829 /* GCKDevice.h */,
+				D3B2B00153A94E699D48724C /* GCKDeviceFilter.h */,
+				53A55B47ACB64AF4949DCC09 /* GCKDeviceManager.h */,
+				0DF90C708B594522ADC2EA73 /* GCKDeviceScanner.h */,
+				CF194C2A5EF841CC9AAE811C /* GCKError.h */,
+				191B9A5C5CA94ED483342209 /* GCKFilterCriteria.h */,
+				67D1475C554C40BEB1F9D9E8 /* GCKImage.h */,
+				1629070EA7584B61BC08094B /* GCKJSONUtils.h */,
+				D2276F9E8D3043B59C813BEB /* GCKLogger.h */,
+				3BA84FD5AA984CBDB55CA98D /* GCKMediaControlChannel.h */,
+				5709ECF045094927AC720321 /* GCKMediaInformation.h */,
+				68AFA441A5E845A48B83BDD1 /* GCKMediaMetadata.h */,
+				BB9B48955A96468D81B5BF48 /* GCKMediaStatus.h */,
+				C9568A970D1244C68D459090 /* GCKNSDictionary+TypedValueLookup.h */,
+				C2C914FD6B3F4D83AE598A97 /* GCKSenderApplicationInfo.h */,
+				C950D4088C55481DA732F50B /* GoogleCast.h */,
+				6DD818B342CD463E903E784F /* Support Files */,
+			);
+			name = "google-cast-sdk";
+			path = "google-cast-sdk";
+			sourceTree = "<group>";
+		};
+		D436EB9C64904908A873EA93 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB6C3B699DE45FEB74E86FE /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B25B6885704242B18AF88628 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9017E315AACB4250A41F0CC3 /* GCKApplicationMetadata.h in Headers */,
+				760CB8F019C34334BF2633F5 /* GCKCastChannel.h in Headers */,
+				11248A0A6FF141BBBC91328A /* GCKDevice.h in Headers */,
+				5D512896779D40FEB18EBE44 /* GCKDeviceFilter.h in Headers */,
+				81E2DF461C0C431BB8931E2F /* GCKDeviceManager.h in Headers */,
+				91E9F9A246FC41FD95B77487 /* GCKDeviceScanner.h in Headers */,
+				3F778A37086C4D81818F7CC7 /* GCKError.h in Headers */,
+				E7C7BAB2DAFF481F91A52F29 /* GCKFilterCriteria.h in Headers */,
+				85E9768A7A694105B7FF80B4 /* GCKImage.h in Headers */,
+				62DF5260FB1943BD97F65CAE /* GCKJSONUtils.h in Headers */,
+				67595B6AFED643678422E38E /* GCKLogger.h in Headers */,
+				FE1770BA449A465BB405A4E8 /* GCKMediaControlChannel.h in Headers */,
+				EBD0F9452BF948D1A88BA07B /* GCKMediaInformation.h in Headers */,
+				91012466B828424EA8666D0F /* GCKMediaMetadata.h in Headers */,
+				4C3BABDD180542B88070F9D4 /* GCKMediaStatus.h in Headers */,
+				9473B94B071E4775A2C4A24B /* GCKNSDictionary+TypedValueLookup.h in Headers */,
+				BE2A0BAC0F4645979E97450D /* GCKSenderApplicationInfo.h in Headers */,
+				2C3FFE7DB92B4F61841A161F /* GoogleCast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07A79B8B41D84821996B9F8E /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B808234F89F4813AE512AC8 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				2356CDE48B414C1D80CB9082 /* Sources */,
+				C83BAB6660A84601B5129426 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F429E07FF91B443EB7E773AD /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 365AF81C740B476EA6C1285B /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A57275D217DE46768762CFA7 /* Pods-google-cast-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F162FA215F4B13AF3B21B0 /* Build configuration list for PBXNativeTarget "Pods-google-cast-sdk" */;
+			buildPhases = (
+				755A2178065A47C59DAD63E8 /* Sources */,
+				2C28B32FC1844883BFE09B9F /* Frameworks */,
+				B25B6885704242B18AF88628 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-google-cast-sdk";
+			productName = "Pods-google-cast-sdk";
+			productReference = 456554A730EF4795A5C4C2FF /* libPods-google-cast-sdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		314C56AE80684D78AB420270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 7F8602D7412241DE96B21A1B /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E2D6B1CCCA647819890624A;
+			productRefGroup = AFE1603064EA49D281A9295D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				07A79B8B41D84821996B9F8E /* Pods */,
+				A57275D217DE46768762CFA7 /* Pods-google-cast-sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2356CDE48B414C1D80CB9082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3659A8D1A542455891D8CA10 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755A2178065A47C59DAD63E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCC0EF880FD44DC9B3FF406 /* Pods-google-cast-sdk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F429E07FF91B443EB7E773AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A57275D217DE46768762CFA7 /* Pods-google-cast-sdk */;
+			targetProxy = DD5B455D42EF4D598E8ED96F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39A29E16C7654CAF9D9112A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C134263B3F4D338FB390B2 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		83B583AD0ECC418BB83BA844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		A1BBFF9245FB4ACCBC0BF975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C134263B3F4D338FB390B2 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A88E0FAAD77C4C28A3067933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBCC417A1C084926B8E5F734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851AC8D4356D44B0895835AC /* Pods-google-cast-sdk-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-google-cast-sdk-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F9D6F86A3CD04E40BE719F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851AC8D4356D44B0895835AC /* Pods-google-cast-sdk-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-google-cast-sdk-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37F162FA215F4B13AF3B21B0 /* Build configuration list for PBXNativeTarget "Pods-google-cast-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCC417A1C084926B8E5F734 /* Debug */,
+				F9D6F86A3CD04E40BE719F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8602D7412241DE96B21A1B /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B583AD0ECC418BB83BA844 /* Debug */,
+				A88E0FAAD77C4C28A3067933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B808234F89F4813AE512AC8 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A29E16C7654CAF9D9112A4 /* Debug */,
+				A1BBFF9245FB4ACCBC0BF975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 314C56AE80684D78AB420270 /* Project object */;
+}
